@@ -37,3 +37,4 @@ function gotResult(error, results) {
         document.getElementById("result_of_accuracy").innerHTML = results[0].confidence.toFixed(3);
     }
 }
+
